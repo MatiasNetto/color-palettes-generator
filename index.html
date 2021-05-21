@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Random color picker</title>
+        <link rel="stylesheet" href="css/styles.css">
+
+        <!-- Font awesome -->
+        <script src="https://kit.fontawesome.com/24463a6218.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+
+        <div id="message-window" class="copied-modal-container">
+            <p id="message-type" class="message-type"></p>
+            <p id="message-text"></p>
+        </div>
+
+        <div id="grid-container" class="grid-container">
+            <!-- <p style="display: none;" class="blocked-icon"><i class="fas fa-lock"></i></p> -->
+            <!-- <div class="color-container">
+            <h2>#a4a455</h2>
+            <div class="color-btn-container">
+            <button class="color-btn"><i class="fas fa-lock"></i></button>
+            <button class="color-btn"><i class="fas fa-random"></i></button>
+            </div>
+            </div> -->
+        </div>
+        <div class="gui-container">
+           <button id="import-btn" class="import-export-btn">Importar</button>
+            <button id="randomBTNDOM" class="random-btn">Random</button>
+            <button id="export-btn" class="import-export-btn">Exportar</button>
+        </div>
+
+        <!-- jsDelivr :: Sortable :: Latest (https://www.jsdelivr.com/package/npm/sortablejs) -->
+        <script src="https://cdn.jsdelivr.net/npm/sortablejs@latest/Sortable.min.js"></script>
+        <script src="js/main.js" type="module"></script>
+    </body>
+</html>
